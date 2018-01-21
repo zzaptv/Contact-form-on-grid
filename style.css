@@ -96,8 +96,15 @@ display: block;
     outline: none;
 }
 
-/* Large screens */
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: #71e97b;
+    color:#fff;
+    display: none;
+}
 
+/* Large screens */
 @media(min-width:700px) {
     .wrapper {
         display:grid;
